@@ -15,7 +15,11 @@ Then, execute the following command to install all Node Dependencies
  ```sh
 $ npm install
 ```
-Finally, run app with de following command
+Next, run the API tha this project uses using de following command
+ ```sh
+$ json-server db.json --port 4000
+```
+Finally, run the app with the following command:
  ```sh
 $ npm start
 ```
